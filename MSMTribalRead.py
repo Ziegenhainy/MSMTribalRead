@@ -57,6 +57,7 @@ for i, levelString in enumerate(allLevels):
     levelString = levelString.replace("T","1")
     levelString = levelString.replace("o","0")
     levelString = levelString.replace("O","0")
+    levelString = levelString.replace("?","7")
     allLevels[i] = levelString
 
 pasteString = ""
